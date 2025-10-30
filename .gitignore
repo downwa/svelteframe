@@ -1,0 +1,60 @@
+# Dependency directories
+node_modules/
+bower_components/
+
+# Backups and temporary files
+*.bak
+*.tmp
+*.swp
+*.swo
+*.old
+*.orig
+*~
+
+# Build output
+dist/
+build/
+out/
+coverage/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Hidden files and folders (except .gitignore itself)
+.*
+!.gitignore
+
+# Log files
+*.log
+
+# Personal and IDE settings
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Environment files
+.env*
+.env.local
+.env.test
+
+# Yarn & npm logs
+yarn-debug.log*
+yarn-error.log*
+npm-debug.log*
+
+# Miscellaneous
+npm-debug.log*
+package-lock.json
+pnpm-lock.yaml
+
+# Ignore backups
+backups/
+backup/
+
+# Ignore test results
+*.test.js.snap
+coverage/
