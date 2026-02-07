@@ -1,0 +1,63 @@
+/* src/routes/svelteframe/theme.css */
+
+.svelteframe-root {
+    /* Default variables (Dark Theme - VSCode style) */
+    --sp-bg-main: #1e1e1e;
+    --sp-bg-sidebar: #252526;
+    --sp-bg-header: #333333;
+    --sp-bg-input: #1e1e1e;
+    --sp-bg-modal: #4f4f4f;
+    --sp-bg-hover: #4f4f4f;
+    --sp-bg-active: #3c3c3c;
+    
+    --sp-text-main: #d4d4d4;
+    --sp-text-muted: #888888;
+    --sp-text-accent: #9cdcfe;
+    --sp-text-string: #ce9178;
+    --sp-text-keyword: #569cd6;
+    --sp-text-selector: #d7ba7d;
+    --sp-text-number: #b5cea8;
+    
+    --sp-border-main: #444444;
+    --sp-border-light: #555555;
+    
+    --sp-color-primary: #3a9a3a;
+    --sp-color-primary-hover: #45b345;
+    --sp-color-secondary: #6c757d;
+    --sp-color-secondary-hover: #5a6268;
+    --sp-color-danger: #dc3545;
+    --sp-color-danger-hover: #c82333;
+    --sp-color-accent: #0e639c;
+    --sp-color-accent-hover: #1177bb;
+}
+
+.svelteframe-root.sp-theme-light {
+    /* Light Theme Overrides */
+    --sp-bg-main: #ffffff;
+    --sp-bg-sidebar: #f3f3f3;
+    --sp-bg-header: #eeeeee;
+    --sp-bg-input: #ffffff;
+    --sp-bg-modal: #ffffff;
+    --sp-bg-hover: #e8e8e8;
+    --sp-bg-active: #dddddd;
+    
+    --sp-text-main: #333333;
+    --sp-text-muted: #666666;
+    --sp-text-accent: #007acc;
+    --sp-text-string: #a31515;
+    --sp-text-keyword: #0000ff;
+    --sp-text-selector: #800000;
+    --sp-text-number: #098658;
+    
+    --sp-border-main: #cccccc;
+    --sp-border-light: #dddddd;
+    
+    --sp-color-primary: #28a745;
+    --sp-color-primary-hover: #218838;
+    --sp-color-secondary: #6c757d;
+    --sp-color-secondary-hover: #5a6268;
+    --sp-color-danger: #dc3545;
+    --sp-color-danger-hover: #bd2130;
+    --sp-color-accent: #007acc;
+    --sp-color-accent-hover: #0062a3;
+}

@@ -1,0 +1,22 @@
+// FILE: tsconfig.json
+{
+  "extends": "./.svelte-kit/tsconfig.json",
+  "compilerOptions": {
+    "rootDirs": ["src", ".svelte-kit/types"],
+    "allowJs": true,
+    "checkJs": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": true,
+    "moduleResolution": "bundler"
+    // --- THIS IS THE FIX ---
+    // The entire "paths" object has been removed from here.
+  },
+  // Path aliases are now handled by svelte.config.js -> kit.alias
+  //
+  // If you want to overwrite includes/excludes, make sure to copy over the relevant includes/excludes
+  // from the referenced tsconfig.json - TypeScript does not merge them in
+}
